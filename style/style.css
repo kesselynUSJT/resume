@@ -1,0 +1,148 @@
+@import url('fonts.css');
+@import url('reset.css');
+
+h1 {
+    font-family: 'Montserrat SemiBold';
+    font-size: 28px;
+    color: #192F7D;
+}
+
+h4 {
+    font-family: 'Montserrat Regular';
+    font-size: 20px;
+    margin-top: 20px;
+    color: #192F7D;
+}
+
+p {
+    font-family: 'Montserrat Regular';
+    margin-top: 20px;
+    line-height: 20px;
+    color: #646464;
+}
+
+b {
+    font-family: 'Montserrat SemiBold';
+}
+
+a {
+    text-decoration: none;
+    color: #192F7D;
+}
+
+.text-clean {
+    width: 75%;
+    padding: 0 20px;
+}
+
+.menu {
+    min-height: 60px;
+    background-color: #192F7D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu a {
+    color: #F9F9F9;
+    font-family: 'Montserrat Regular';
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#personal-information {
+    background-image: url('./../assets/backgroud.png');
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+#personal-information .picture {
+    width: 20%;
+    text-align: center;
+}
+
+#personal-information .picture img {
+    width: 80%;
+}
+
+#personal-information .picture div {
+    text-align: center;
+}
+
+#personal-information .languages {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#personal-information .languages p {
+    width: 28%;
+}
+
+#personal-information .education {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#personal-information .education p {
+    width: 50%;
+}
+
+#work-experience {
+    background-color: #EEEEEE;
+    padding: 40px;
+    text-align: center;
+}
+
+#work-experience .jobs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#work-experience .job {
+    width: 35%;
+}
+
+#project-recognition {
+    background-image: url('./../assets/backgroud.png');
+    background-position-y: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#project-recognition .project {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#project-recognition .project .column {
+    width: 35%;
+}
+
+#volunteer-experience {
+    background-color: #EEEEEE;
+    padding: 40px;
+    text-align: center;
+}
+
+#volunteer-experience .project {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#volunteer-experience .project .column {
+    width: 35%;
+}
